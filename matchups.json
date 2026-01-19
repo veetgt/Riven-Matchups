@@ -1,0 +1,355 @@
+{
+    "Aatrox": {
+        "img": "aatrox.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Akali": {
+        "img": "akali.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Ambessa": {
+        "img": "ambessa.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Akshan": {
+        "img": "akshan.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Aurora": {
+        "img": "aurora.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Briar": {
+        "img": "briar.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Camille": {
+        "img": "camille.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Cassiopeia": {
+        "img": "cassiopeia.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Cho'gath": {
+        "img": "chogath.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Darius": {
+        "img": "darius.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Dr. Mundo": {
+        "img": "DrMundo.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Fiora": {
+        "img": "fiora.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Gangplank": {
+        "img": "gangplank.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Garen": {
+        "img": "garen.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Galio": {
+        "img": "galio.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Gnar": {
+        "img": "gnar.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Gragas": {
+        "img": "gragas.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Graves": {
+        "img": "graves.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Gwen": {
+        "img": "gwen.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Hecarim": {
+        "img": "hecarim.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Heimerdinger": {
+        "img": "heimerdinger.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Illaoi": {
+        "img": "illaoi.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    }
+    ,
+    "Irelia": {
+        "img": "irelia.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Jax": {
+        "img": "jax.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Jayce": {
+        "img": "jayce.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "K'Sante": {
+        "img": "ksante.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Karma": {
+        "img": "karma.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Kayle": {
+        "img": "kayle.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Kennen": {
+        "img": "kennen.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Kled": {
+        "img": "kled.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Lilia": {
+        "img": "lilia.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Lissandra": {
+        "img": "lissandra.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Malphite": {
+        "img": "malphite.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Maokai": {
+        "img": "maokai.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Mordekaiser": {
+        "img": "mordekaiser.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Nasus": {
+        "img": "nasus.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Neeko": {
+        "img": "neeko.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Olaf": {
+        "img": "Olaf.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Ornn": {
+        "img": "Ornn.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Pantheon": {
+        "img": "pantheon.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Poppy": {
+        "img": "poppy.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Quinn": {
+        "img": "quinn.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Rammus": {
+        "img": "rammus.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Renekton": {
+        "img": "renekton.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    }
+}
