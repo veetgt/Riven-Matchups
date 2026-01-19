@@ -68,7 +68,7 @@ class RivenNation(customtkinter.CTk):
                 fg_color="transparent",
                 hover_color="#404040")
             
-            btn.grid(row=row, column=column, padx=5, pady=5)
+            btn.grid(row=row, column=column, padx=3, pady=3)
             column += 1
             if column >= COLUMN_LIMIT:
                 column = 0

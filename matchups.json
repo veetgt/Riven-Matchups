@@ -240,8 +240,8 @@
         "todo": "",
         "nottodo": ""
     },
-    "Lilia": {
-        "img": "lilia.png",        
+    "Lillia": {
+        "img": "Lillia.png",        
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
@@ -346,6 +346,286 @@
     },
     "Renekton": {
         "img": "renekton.png",        
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Rengar": {
+        "img": "rengar.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Riven": {
+        "img": "riven.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "don't know never played against",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Rumble": {
+        "img": "rumble.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Ryze": {
+        "img": "ryze.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Sejuani": {
+        "img": "sejuani.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Sett": {
+        "img": "sett.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Shen": {
+        "img": "shen.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Shyvana": {
+        "img": "shyvana.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Singed": {
+        "img": "singed.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Sion": {
+        "img": "sion.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Skarner": {
+        "img": "skarner.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Smolder": {
+        "img": "smolder.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Sylas": {
+        "img": "sylas.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Tahm Kench": {
+        "img": "tahmkench.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Taliyah": {
+        "img": "taliyah.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Talon": {
+        "img": "talon.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Teemo": {
+        "img": "teemo.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Trundle": {
+        "img": "trundle.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Tryndamere": {
+        "img": "tryndamere.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Twisted Fate": {
+        "img": "twistedfate.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Udyr": {
+        "img": "udyr.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Urgot": {
+        "img": "urgot.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Vayne": {
+        "img": "vayne.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Viego": {
+        "img": "viego.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Viktor": {
+        "img": "viktor.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Vladimir": {
+        "img": "vladimir.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Volibear": {
+        "img": "volibear.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Warwick": {
+        "img": "warwick.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Wukong": {
+        "img": "monkeyking.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "Nome do arquivo é MonkeyKing",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Xin Zhao": {
+        "img": "xinzhao.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Yasuo": {
+        "img": "yasuo.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Yone": {
+        "img": "yone.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Yorick": {
+        "img": "yorick.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Zac": {
+        "img": "zac.png",
+        "difficulty": "",
+        "runes": "Conqueror + ",
+        "notes": "",
+        "todo": "",
+        "nottodo": ""
+    },
+    "Zed": {
+        "img": "zed.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
