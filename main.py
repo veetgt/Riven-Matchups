@@ -11,7 +11,7 @@ class RivenNation(customtkinter.CTk):
         self.geometry("854x480")
         customtkinter.set_appearance_mode("dark")
         self.data_matchups = self.load_data()
-        self.setup_ui()
+        self.setup_menu()
         self.champions_grid()
 
     def load_data(self):
@@ -20,13 +20,13 @@ class RivenNation(customtkinter.CTk):
 
         if os.path.exists(json_dir):
             try:
-                with open("matchups.json", "r", encoding="utf-8") as something:
+                with open(json_dir, "r", encoding="utf-8") as something:
                     return json.load(something)
             except Exception as e:
                 print(f"Erro no JSON: {e}")
                 return {}
         
-    def setup_ui(self):
+    def setup_menu(self):
         self.credit = customtkinter.CTkLabel(master=self, text="by VeetGoodtime", font=("Arial", 9))
         self.credit.pack(pady=8)
 
@@ -40,19 +40,18 @@ class RivenNation(customtkinter.CTk):
         COLUMN_LIMIT = 6
         row = 0
         column = 0 
-
+        
         script_dir = os.path.dirname(os.path.abspath(__file__))
         champions = list(self.data_matchups.keys())
 
         for champion in champions:
-            icons_path = os.path.join(script_dir, "images", self.data_matchups[champion]["img"])
+            icons_path = os.path.join(script_dir, "icons", self.data_matchups[champion]["img"])
             img_btn = None
 
             if os.path.exists(icons_path):
                 try:
-                    img_data = Image.open(icons_path)
-                    img_btn = customtkinter.CTkImage(light_image=img_data, 
-                                                    dark_image=img_data, 
+                    img_btn = customtkinter.CTkImage(light_image=Image.open(icons_path), 
+                                                    dark_image=Image.open(icons_path), 
                                                     size=(55, 55))
                 except Exception as e:
                     print(f"Image error {champion}: {e}")
@@ -60,7 +59,7 @@ class RivenNation(customtkinter.CTk):
             btn = customtkinter.CTkButton(
                 self.scroll_frame, 
                 text=champion,
-                command=lambda c=champion: self.button_event(c), 
+                command=lambda c=champion: self.champion_select(c), 
                 width=0, height=0,
                 compound="top",
                 image=img_btn,
@@ -73,9 +72,55 @@ class RivenNation(customtkinter.CTk):
             if column >= COLUMN_LIMIT:
                 column = 0
                 row += 1
-
-    def button_event(self, champ_name):
+        
+    def champion_select(self, champ_name): # New window
         print(f"{champ_name}")
+
+        # Gathering info
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        data_matchups = self.load_data()
+        img = self.data_matchups.get(champ_name, {}).get("img")
+        icons_path = os.path.join(script_dir, "icons", img)
+        if os.path.exists(icons_path):
+            pil_image = Image.open(icons_path)
+            self.my_image = customtkinter.CTkImage(
+                light_image=pil_image, 
+                dark_image=pil_image, 
+                size=(70, 70) 
+            )
+            self.img_label = customtkinter.CTkLabel(master=self, text="", image=self.my_image)
+            self.img_label.pack(pady=10)
+        else:
+            print(f"Imagem não encontrada: {icons_path}")
+
+        diff = data_matchups.get(champ_name, {}).get("difficulty", "Unknown")
+        runes = data_matchups.get(champ_name, {}).get("runes", "Conqueror")
+        notes = data_matchups.get(champ_name, {}).get("notes", "No notes yet.")
+        todo = data_matchups.get(champ_name, {}).get("todo", "")
+        nottodo = data_matchups.get(champ_name, {}).get("nottodo", "")
+
+        self.entry.pack_forget()
+        self.scroll_frame.pack_forget()
+
+        self.champion_name = customtkinter.CTkLabel(master=self, text=champ_name, font=("Arial", 26))
+        self.champion_name.pack()
+
+        self.diff_label = customtkinter.CTkLabel(master=self, text=f"{diff}", font=("Arial", 16))
+        self.diff_label.pack(pady=5)
+
+        self.return_btn = customtkinter.CTkButton(master=self, text="return", command=self.return_button)
+        self.return_btn.pack(pady=12)
+
+    def return_button(self):
+        self.credit.pack_forget()
+        self.img_label.pack_forget()
+        self.champion_name.pack_forget()
+        self.diff_label.pack_forget()
+        self.return_btn.pack_forget()
+        self.setup_menu()
+        self.champions_grid()
+        
+
 
 if __name__ == "__main__":
     app = RivenNation()
