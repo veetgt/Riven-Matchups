@@ -119,7 +119,7 @@ class RivenNation(customtkinter.CTk):
 
     def return_button(self):
         self.credit.pack_forget()
-        self.img_label.pack_forget()
+        self.img_label.place_forget()
         self.champion_name.pack_forget()
         self.diff_label.pack_forget()
         self.notes_label.pack_forget()
