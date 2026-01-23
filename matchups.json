@@ -1,7 +1,7 @@
 {
     "Aatrox": {
         "img": "aatrox.png",
-        "difficulty": "Depende",
+        "difficulty": "Hard",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
@@ -580,16 +580,16 @@
         "img": "monkeyking.png",
         "difficulty": "",
         "runes": "Conqueror + ",
-        "notes": "Nome do arquivo é MonkeyKing",
+        "notes": "",
         "todo": "",
         "nottodo": ""
     },
     "Xin Zhao": {
         "img": "xinzhao.png",
         "difficulty": "",
-        "runes": "Conqueror + ",
-        "notes": "",
-        "todo": "",
+        "runes": "Conqueror + Inspiration (Cookie and Cosmic)",
+        "notes": "Your E will be your greates shield against his E, save it",
+        "todo": "Dodge his E",
         "nottodo": ""
     },
     "Yasuo": {

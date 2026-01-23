@@ -86,10 +86,10 @@ class RivenNation(customtkinter.CTk):
             self.my_image = customtkinter.CTkImage(
                 light_image=pil_image, 
                 dark_image=pil_image, 
-                size=(70, 70) 
+                size=(100, 100) 
             )
             self.img_label = customtkinter.CTkLabel(master=self, text="", image=self.my_image)
-            self.img_label.pack(pady=10)
+            self.img_label.place(x=0, y=0) 
         else:
             print(f"Imagem não encontrada: {icons_path}")
 
@@ -103,10 +103,16 @@ class RivenNation(customtkinter.CTk):
         self.scroll_frame.pack_forget()
 
         self.champion_name = customtkinter.CTkLabel(master=self, text=champ_name, font=("Arial", 26))
-        self.champion_name.pack()
+        self.champion_name.pack(pady=5)
 
         self.diff_label = customtkinter.CTkLabel(master=self, text=f"{diff}", font=("Arial", 16))
         self.diff_label.pack(pady=5)
+
+        self.notes_label = customtkinter.CTkLabel(master=self, text=f"{notes}", font=("Arial", 16))
+        self.notes_label.pack(pady=5)
+
+        self.runes_label = customtkinter.CTkLabel(master=self, text=f"{runes}", font=("Arial", 16))
+        self.runes_label.pack(pady=5)
 
         self.return_btn = customtkinter.CTkButton(master=self, text="return", command=self.return_button)
         self.return_btn.pack(pady=12)
@@ -116,6 +122,8 @@ class RivenNation(customtkinter.CTk):
         self.img_label.pack_forget()
         self.champion_name.pack_forget()
         self.diff_label.pack_forget()
+        self.notes_label.pack_forget()
+        self.runes_label.pack_forget()
         self.return_btn.pack_forget()
         self.setup_menu()
         self.champions_grid()
