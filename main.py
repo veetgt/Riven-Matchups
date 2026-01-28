@@ -59,7 +59,7 @@ class RivenNation(customtkinter.CTk):
             btn = customtkinter.CTkButton(
                 self.scroll_frame, 
                 text=champion,
-                command=lambda c=champion: self.champion_select(c), 
+                command=lambda c=champion: self.champion_select(c),
                 width=0, height=0,
                 compound="top",
                 image=img_btn,
@@ -75,8 +75,38 @@ class RivenNation(customtkinter.CTk):
         
     def champion_select(self, champ_name): # New window
         print(f"{champ_name}")
+        if hasattr(self, "credit"): self.credit.pack_forget()
 
-        # Gathering info
+        self.details_frame = customtkinter.CTkFrame(self, fg_color="transparent")
+        self.details_frame.pack(fill="both", expand=True, padx=20, pady=20)
+
+        self.details_frame.grid_columnconfigure(0, weight=1) 
+        self.details_frame.grid_columnconfigure(1, weight=3)
+        self.details_frame.grid_rowconfigure(0, weight=0)
+        self.details_frame.grid_rowconfigure(1, weight=1)
+
+        self.btn_return = customtkinter.CTkButton(
+            self.details_frame, 
+            text="Return", # Seta para indicar voltar
+            command=self.return_button, 
+            fg_color="transparent", 
+            width=50, # Largura compacta
+            anchor="w" # Texto alinhado a esquerda
+        )
+        self.btn_return.grid(row=0, column=0, sticky="w", padx=(0, 10), pady=(0, 10))
+
+        self.left_panel = customtkinter.CTkFrame(self.details_frame, fg_color="#2B2B2B", corner_radius=15)
+        self.left_panel.grid(row=1, column=0, sticky="nsew", padx=(0, 10))
+        self.left_content = customtkinter.CTkFrame(self.left_panel, fg_color="transparent")
+        self.left_content.pack(expand=True, fill="both", pady=20)
+
+        self.right_panel = customtkinter.CTkFrame(self.details_frame, fg_color="#2B2B2B", corner_radius=15)
+        self.right_panel.grid(row=1, column=1, rowspan=2, sticky="nsew", padx=(0, 10))
+        self.right_content = customtkinter.CTkFrame(self.left_panel, fg_color="transparent")
+        self.right_content.pack(expand=True, fill="both", pady=40)
+
+        # Gathering info --------------------------------------------------------------
+
         script_dir = os.path.dirname(os.path.abspath(__file__))
         data_matchups = self.load_data()
         img = self.data_matchups.get(champ_name, {}).get("img")
@@ -88,43 +118,55 @@ class RivenNation(customtkinter.CTk):
                 dark_image=pil_image, 
                 size=(100, 100) 
             )
-            self.img_label = customtkinter.CTkLabel(master=self, text="", image=self.my_image)
-            self.img_label.place(x=0, y=0) 
+            self.img_label = customtkinter.CTkLabel(self.left_content, text="", image=self.my_image)
+            self.img_label.pack(pady=(0, 15))
         else:
             print(f"Imagem não encontrada: {icons_path}")
 
         diff = data_matchups.get(champ_name, {}).get("difficulty", "Unknown")
         runes = data_matchups.get(champ_name, {}).get("runes", "Conqueror")
         notes = data_matchups.get(champ_name, {}).get("notes", "No notes yet.")
-        todo = data_matchups.get(champ_name, {}).get("todo", "")
-        nottodo = data_matchups.get(champ_name, {}).get("nottodo", "")
+        todo = data_matchups.get(champ_name, {}).get("todo", "No notes yet.")
+        nottodo = data_matchups.get(champ_name, {}).get("nottodo", "No notes yet.")
+
+        # ------------------------------------------------------------------------------
 
         self.entry.pack_forget()
         self.scroll_frame.pack_forget()
 
-        self.champion_name = customtkinter.CTkLabel(master=self, text=champ_name, font=("Arial", 26))
-        self.champion_name.pack(pady=5)
+        champion_name = customtkinter.CTkLabel(self.left_content, text=champ_name, font=("Arial", 26))
+        champion_name.pack(pady=(0, 15)) 
 
-        self.diff_label = customtkinter.CTkLabel(master=self, text=f"{diff}", font=("Arial", 16))
-        self.diff_label.pack(pady=5)
+        lbl_runes_title = customtkinter.CTkLabel(self.right_panel, text="Recommended Runes", font=("Arial", 18, "bold"), anchor="w")
+        lbl_runes_title.pack(fill="x", pady=(10, 5))
 
-        self.notes_label = customtkinter.CTkLabel(master=self, text=f"{notes}", font=("Arial", 16))
-        self.notes_label.pack(pady=5)
+        rune_card = customtkinter.CTkFrame(self.right_panel, fg_color="#333333")
+        rune_card.pack(fill="x", pady=5)
+        
+        lbl_runes = customtkinter.CTkLabel(rune_card, text=runes, font=("Arial", 14), anchor="w", justify="left")
+        lbl_runes.pack(padx=15, pady=15, fill="x")
 
-        self.runes_label = customtkinter.CTkLabel(master=self, text=f"{runes}", font=("Arial", 16))
-        self.runes_label.pack(pady=5)
+        lbl_notes_title = customtkinter.CTkLabel(self.right_panel, text="Matchup Notes", font=("Arial", 18, "bold"), anchor="w")
+        lbl_notes_title.pack(fill="x", pady=(20, 5))
 
-        self.return_btn = customtkinter.CTkButton(master=self, text="return", command=self.return_button)
-        self.return_btn.pack(pady=12)
+        lbl_notes = customtkinter.CTkLabel(self.right_panel, text=notes, font=("Arial", 14), wraplength=500, justify="left", anchor="w")
+        lbl_notes.pack(fill="x", pady=5)
+
+        lbl_todo_title = customtkinter.CTkLabel(self.right_panel, text="To do:", font=("Arial", 18, "bold"), anchor="w")
+        lbl_todo_title.pack(fill="x", pady=(20, 5))
+
+        lbl_todo = customtkinter.CTkLabel(self.right_panel, text=todo, font=("Arial", 14), wraplength=500, justify="left", anchor="w")
+        lbl_todo.pack(fill="x", pady=5)
+
+        lbl_nottodo_title = customtkinter.CTkLabel(self.right_panel, text="Don't:", font=("Arial", 18, "bold"), anchor="w")
+        lbl_nottodo_title.pack(fill="x", pady=(20, 5))
+
+        lbl_nottodo = customtkinter.CTkLabel(self.right_panel, text=nottodo, font=("Arial", 14), wraplength=500, justify="left", anchor="w")
+        lbl_nottodo.pack(fill="x", pady=5)
 
     def return_button(self):
-        self.credit.pack_forget()
-        self.img_label.place_forget()
-        self.champion_name.pack_forget()
-        self.diff_label.pack_forget()
-        self.notes_label.pack_forget()
-        self.runes_label.pack_forget()
-        self.return_btn.pack_forget()
+        if hasattr(self, 'details_frame'):
+            self.details_frame.destroy()
         self.setup_menu()
         self.champions_grid()
         

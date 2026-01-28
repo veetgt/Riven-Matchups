@@ -3,8 +3,8 @@
         "img": "aatrox.png",
         "difficulty": "Hard",
         "runes": "Conqueror + ",
-        "notes": "",
-        "todo": "",
+        "notes": "Skill matchup",
+        "todo": "Dodge his Q\nBy the start of the game his Q has longer cooldown",
         "nottodo": ""
     },
     "Akali": {
@@ -107,9 +107,9 @@
         "img": "garen.png",        
         "difficulty": "",
         "runes": "Conqueror + ",
-        "notes": "",
-        "todo": "",
-        "nottodo": ""
+        "notes": "Skill matchup",
+        "todo": "Bait his Q before trades\nRespect his spin shit\nDon't let him ult you.",
+        "nottodo": "Stay at the tower with low HP, he can ult you easily"
     },
     "Galio": {
         "img": "galio.png",        
@@ -261,7 +261,7 @@
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
-        "todo": "",
+        "todo": "Bait his Q and ALWAYS block some damage of it with your E",
         "nottodo": ""
     },
     "Maokai": {
@@ -274,10 +274,10 @@
     },
     "Mordekaiser": {
         "img": "mordekaiser.png",        
-        "difficulty": "",
+        "difficulty": "Medium",
         "runes": "Conqueror + ",
-        "notes": "",
-        "todo": "",
+        "notes": "Skill matchup",
+        "todo": "Dodge his shit",
         "nottodo": ""
     },
     "Nasus": {
@@ -485,8 +485,8 @@
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
-        "todo": "",
-        "nottodo": ""
+        "todo": "His ass squeezy af at the start stomp him NOW",
+        "nottodo": "Try deal some damage while he still has Q (blind shit)"
     },
     "Trundle": {
         "img": "trundle.png",
@@ -596,7 +596,7 @@
         "img": "yasuo.png",
         "difficulty": "",
         "runes": "Conqueror + ",
-        "notes": "",
+        "notes": "Skill matchup",
         "todo": "",
         "nottodo": ""
     },
