@@ -5,87 +5,109 @@
         "runes": "Conqueror + ",
         "notes": "Skill matchup",
         "todo": "Dodge his Q\nBy the start of the game his Q has longer cooldown",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Akali": {
-        "img": "akali.png",        
+        "img": "akali.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Ambessa": {
-        "img": "ambessa.png",        
+        "img": "ambessa.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Akshan": {
-        "img": "akshan.png",        
+        "img": "akshan.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Aurora": {
-        "img": "aurora.png",        
+        "img": "aurora.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Briar": {
-        "img": "briar.png",        
+        "img": "briar.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Camille": {
-        "img": "camille.png",        
+        "img": "camille.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Cassiopeia": {
-        "img": "cassiopeia.png",        
+        "img": "cassiopeia.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Cho'gath": {
-        "img": "chogath.png",        
+        "img": "chogath.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Darius": {
-        "img": "darius.png",        
+        "img": "darius.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Dr. Mundo": {
-        "img": "DrMundo.png",        
+        "img": "DrMundo.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Fiora": {
         "img": "fiora.png",
@@ -93,264 +115,329 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Gangplank": {
-        "img": "gangplank.png",        
+        "img": "gangplank.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Garen": {
-        "img": "garen.png",        
+        "img": "garen.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "Skill matchup",
         "todo": "Bait his Q before trades\nRespect his spin shit\nDon't let him ult you.",
-        "nottodo": "Stay at the tower with low HP, he can ult you easily"
+        "nottodo": "Stay at the tower with low HP, he can ult you easily",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Galio": {
-        "img": "galio.png",        
+        "img": "galio.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Gnar": {
-        "img": "gnar.png",        
+        "img": "gnar.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Gragas": {
-        "img": "gragas.png",        
+        "img": "gragas.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Graves": {
-        "img": "graves.png",        
+        "img": "graves.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Gwen": {
-        "img": "gwen.png",        
+        "img": "gwen.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Hecarim": {
-        "img": "hecarim.png",        
+        "img": "hecarim.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Heimerdinger": {
-        "img": "heimerdinger.png",        
+        "img": "heimerdinger.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Illaoi": {
-        "img": "illaoi.png",        
+        "img": "illaoi.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
-    }
-    ,
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
+    },
     "Irelia": {
-        "img": "irelia.png",        
+        "img": "irelia.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Jax": {
-        "img": "jax.png",        
+        "img": "jax.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Jayce": {
-        "img": "jayce.png",        
+        "img": "jayce.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "K'Sante": {
-        "img": "ksante.png",        
+        "img": "ksante.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Karma": {
-        "img": "karma.png",        
+        "img": "karma.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Kayle": {
-        "img": "kayle.png",        
+        "img": "kayle.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Kennen": {
-        "img": "kennen.png",        
+        "img": "kennen.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Kled": {
-        "img": "kled.png",        
+        "img": "kled.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Lillia": {
-        "img": "Lillia.png",        
+        "img": "Lillia.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Lissandra": {
-        "img": "lissandra.png",        
+        "img": "lissandra.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Malphite": {
-        "img": "malphite.png",        
+        "img": "malphite.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "Bait his Q and ALWAYS block some damage of it with your E",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Maokai": {
-        "img": "maokai.png",        
+        "img": "maokai.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Mordekaiser": {
-        "img": "mordekaiser.png",        
+        "img": "mordekaiser.png",
         "difficulty": "Medium",
         "runes": "Conqueror + ",
         "notes": "Skill matchup",
         "todo": "Dodge his shit",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Nasus": {
-        "img": "nasus.png",        
+        "img": "nasus.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Neeko": {
-        "img": "neeko.png",        
+        "img": "neeko.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Olaf": {
-        "img": "Olaf.png",        
+        "img": "Olaf.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Ornn": {
-        "img": "Ornn.png",        
+        "img": "Ornn.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Pantheon": {
-        "img": "pantheon.png",        
+        "img": "pantheon.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Poppy": {
-        "img": "poppy.png",        
+        "img": "poppy.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Quinn": {
-        "img": "quinn.png",        
+        "img": "quinn.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Rammus": {
-        "img": "rammus.png",        
+        "img": "rammus.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Renekton": {
-        "img": "renekton.png",        
+        "img": "renekton.png",
         "difficulty": "",
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Rengar": {
         "img": "rengar.png",
@@ -358,7 +445,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Riven": {
         "img": "riven.png",
@@ -366,7 +455,9 @@
         "runes": "Conqueror + ",
         "notes": "don't know never played against",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Rumble": {
         "img": "rumble.png",
@@ -374,7 +465,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Ryze": {
         "img": "ryze.png",
@@ -382,7 +475,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Sejuani": {
         "img": "sejuani.png",
@@ -390,7 +485,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Sett": {
         "img": "sett.png",
@@ -398,7 +495,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Shen": {
         "img": "shen.png",
@@ -406,7 +505,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Shyvana": {
         "img": "shyvana.png",
@@ -414,7 +515,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Singed": {
         "img": "singed.png",
@@ -422,7 +525,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Sion": {
         "img": "sion.png",
@@ -430,7 +535,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Skarner": {
         "img": "skarner.png",
@@ -438,7 +545,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Smolder": {
         "img": "smolder.png",
@@ -446,7 +555,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Sylas": {
         "img": "sylas.png",
@@ -454,7 +565,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Tahm Kench": {
         "img": "tahmkench.png",
@@ -462,7 +575,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Taliyah": {
         "img": "taliyah.png",
@@ -470,7 +585,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Talon": {
         "img": "talon.png",
@@ -478,7 +595,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Teemo": {
         "img": "teemo.png",
@@ -486,7 +605,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "His ass squeezy af at the start stomp him NOW",
-        "nottodo": "Try deal some damage while he still has Q (blind shit)"
+        "nottodo": "Try deal some damage while he still has Q (blind shit)",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Trundle": {
         "img": "trundle.png",
@@ -494,7 +615,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Tryndamere": {
         "img": "tryndamere.png",
@@ -502,7 +625,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Twisted Fate": {
         "img": "twistedfate.png",
@@ -510,7 +635,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Udyr": {
         "img": "udyr.png",
@@ -518,7 +645,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Urgot": {
         "img": "urgot.png",
@@ -526,7 +655,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Vayne": {
         "img": "vayne.png",
@@ -534,7 +665,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Viego": {
         "img": "viego.png",
@@ -542,7 +675,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Viktor": {
         "img": "viktor.png",
@@ -550,7 +685,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Vladimir": {
         "img": "vladimir.png",
@@ -558,7 +695,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Volibear": {
         "img": "volibear.png",
@@ -566,7 +705,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Warwick": {
         "img": "warwick.png",
@@ -574,7 +715,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Wukong": {
         "img": "monkeyking.png",
@@ -582,7 +725,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Xin Zhao": {
         "img": "xinzhao.png",
@@ -590,7 +735,9 @@
         "runes": "Conqueror + Inspiration (Cookie and Cosmic)",
         "notes": "Your E will be your greates shield against his E, save it",
         "todo": "Dodge his E",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Yasuo": {
         "img": "yasuo.png",
@@ -598,7 +745,9 @@
         "runes": "Conqueror + ",
         "notes": "Skill matchup",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Yone": {
         "img": "yone.png",
@@ -606,7 +755,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Yorick": {
         "img": "yorick.png",
@@ -614,7 +765,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Zac": {
         "img": "zac.png",
@@ -622,7 +775,9 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     },
     "Zed": {
         "img": "zed.png",
@@ -630,6 +785,8 @@
         "runes": "Conqueror + ",
         "notes": "",
         "todo": "",
-        "nottodo": ""
+        "nottodo": "",
+        "spells": "Flash + Ignite",
+        "start-item": "Lâmina de Doran"
     }
 }

@@ -30,7 +30,7 @@ class RivenNation(customtkinter.CTk):
         self.credit = customtkinter.CTkLabel(master=self, text="by VeetGoodtime", font=("Arial", 9))
         self.credit.pack(pady=8)
 
-        self.entry = customtkinter.CTkEntry(self, placeholder_text="Choose a champion (Aatrox, Garen, etc.).", width=400)
+        self.entry = customtkinter.CTkEntry(self, placeholder_text="Search a champion (Aatrox, Garen, etc.).", width=400)
         self.entry.pack(pady=3)
 
         self.scroll_frame = customtkinter.CTkScrollableFrame(master=self, width=480, height=320)
