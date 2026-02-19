@@ -128,6 +128,8 @@ class RivenNation(customtkinter.CTk):
         notes = data_matchups.get(champ_name, {}).get("notes", "No notes yet.")
         todo = data_matchups.get(champ_name, {}).get("todo", "No notes yet.")
         nottodo = data_matchups.get(champ_name, {}).get("nottodo", "No notes yet.")
+        item = data_matchups.get(champ_name, {}).get("start-item", "")
+        item_icon = os.path.join(script_dir, "icons", item)
 
         # ------------------------------------------------------------------------------
 
@@ -136,6 +138,41 @@ class RivenNation(customtkinter.CTk):
 
         champion_name = customtkinter.CTkLabel(self.left_content, text=champ_name, font=("Arial", 26))
         champion_name.pack(pady=(0, 15)) 
+
+        lbl_items_title = customtkinter.CTkLabel(self.left_content, text="Recommended Items", font=("Arial", 18, "bold"), anchor="w")
+        lbl_items_title.pack(fill="x", pady=(10, 5))
+
+        items_card = customtkinter.CTkFrame(self.left_content, fg_color="#333333")
+        items_card.pack(fill="x", pady=5)
+
+        start_items = data_matchups.get(champ_name, {}).get("start-items", [])
+
+        self.item_images = []
+
+        if not start_items:
+            lbl = customtkinter.CTkLabel(items_card, text="Not defined", font=("Arial", 14))
+            lbl.pack(pady=10, padx=15, anchor="w")
+        else:
+            items_container = customtkinter.CTkFrame(items_card, fg_color="transparent")
+            items_container.pack(pady=10, padx=15, anchor="w")
+            for item in start_items:
+                item_name = item.get("name", "Unknown Item")
+                item_img_name = item.get("img", "")
+                item_icon_path = os.path.join(script_dir, "icons", item_img_name)
+
+                if item_img_name and os.path.exists(item_icon_path):
+                    pil_image_item = Image.open(item_icon_path)
+                    ctk_img = customtkinter.CTkImage(
+                        light_image=pil_image_item, 
+                        dark_image=pil_image_item, 
+                        size=(50, 50) 
+                    )
+                    self.item_images.append(ctk_img) 
+                    lbl = customtkinter.CTkLabel(items_container, text=f" {item_name}", image=ctk_img, compound="left", font=("Arial", 14))
+                    lbl.pack(side="left", padx=(10, 10)) 
+                else:
+                    lbl = customtkinter.CTkLabel(items_container, text=item_name, font=("Arial", 14))
+                    lbl.pack(side="left", padx=(10, 10))
 
         lbl_runes_title = customtkinter.CTkLabel(self.right_panel, text="Recommended Runes", font=("Arial", 18, "bold"), anchor="w")
         lbl_runes_title.pack(fill="x", pady=(10, 5))
