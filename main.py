@@ -130,24 +130,31 @@ class RivenNation(customtkinter.CTk):
         todo = data_matchups.get(champ_name, {}).get("todo", "No notes yet.")
         nottodo = data_matchups.get(champ_name, {}).get("nottodo", "No notes yet.")
         item = data_matchups.get(champ_name, {}).get("start-item", "")
+        spells = data_matchups.get(champ_name, {}).get("spells", "")
 
         # ------------------------------------------------------------------------------
 
         self.scroll_frame.pack_forget()
 
-        champion_name = customtkinter.CTkLabel(self.left_content, text=champ_name, font=("Arial", 26))
-        champion_name.pack(pady=(0, 15)) 
+        champion_name = customtkinter.CTkLabel(self.left_content, text=champ_name, font=("Arial", 24, "bold"))
+        champion_name.pack(pady=(0, 4)) 
 
-        diff_title = customtkinter.CTkLabel(self.left_content, text=f"{diff} difficulty", font=("Arial", 18))
-        diff_title.pack(pady=(0, 15))
+        diff_title = customtkinter.CTkLabel(self.left_content, text=f"{diff} difficulty", font=("Arial", 16))
+        diff_title.pack(pady=(0, 4))
 
-        lbl_items_title = customtkinter.CTkLabel(self.left_content, text="Starting Items", font=("Arial", 18), anchor="w")
-        lbl_items_title.pack(fill="x", pady=(10, 5))
+        lbl_items_title = customtkinter.CTkLabel(self.left_content, text="Starting Items", font=("Arial", 16, "bold"), anchor="w")
+        lbl_items_title.pack(fill="x", pady=(6, 4))
 
         items_card = customtkinter.CTkFrame(self.left_content, fg_color="#333333")
         items_card.pack(fill="x", pady=5)
 
         start_items = data_matchups.get(champ_name, {}).get("start-items", [])
+
+        lbl_spells_title = customtkinter.CTkLabel(self.left_content, text="Recommended Spells", font=("Arial", 16, "bold"), anchor="w")
+        lbl_spells_title.pack(fill="x", pady=(6, 4))
+
+        lbl_spells = customtkinter.CTkLabel(self.left_content, text=spells, font=("Arial", 16), anchor="w")
+        lbl_spells.pack(pady=(0, 4))
 
         self.item_images = []
 
