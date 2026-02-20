@@ -2,14 +2,14 @@
     "Aatrox": {
         "img": "aatrox.png",
         "difficulty": "Medium",
-        "runes": "",
-        "notes": "Skill matchup",
-        "todo": "",
-        "nottodo": "",
+        "runes": "Conqueror + Inspiration (Cookie and Jack of All Trades)",
+        "notes": "Type of matchup",
+        "todo": "Notes to take it easily",
+        "nottodo": "Not to do notes",
         "spells": "Flash + Ignite",
         "start-items": [
             {
-                "name": "Doran's Shield",
+                "name": "Lâmina de Doran",
                 "img": "Doran_Blade_item.jpg"
             },
             {
@@ -200,16 +200,20 @@
     },
     "Garen": {
         "img": "garen.png",
-        "difficulty": "",
-        "runes": "Conqueror + ",
-        "notes": "Skill matchup",
-        "todo": "Bait his Q before trades\nRespect his spin shit\nDon't let him ult you.",
-        "nottodo": "Stay at the tower with low HP, he can ult you easily",
+        "difficulty": "Medium",
+        "runes": "Conqueror + Inspiration (Cookie and Jack of All Trades)",
+        "notes": "Type of matchup",
+        "todo": "Notes to take it easily",
+        "nottodo": "Not to do notes",
         "spells": "Flash + Ignite",
         "start-items": [
             {
                 "name": "Lâmina de Doran",
                 "img": "Doran_Blade_item.jpg"
+            },
+            {
+                "name": "Health Potion",
+                "img": "Health_Potion_item.jpg"
             }
         ]
     },

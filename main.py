@@ -27,11 +27,11 @@ class RivenNation(customtkinter.CTk):
                 return {}
         
     def setup_menu(self):
-        self.credit = customtkinter.CTkLabel(master=self, text="by VeetGoodtime", font=("Arial", 9))
+        self.credit = customtkinter.CTkLabel(master=self, text="by veetgt", font=("Arial", 9))
         self.credit.pack(pady=8)
 
-        self.entry = customtkinter.CTkEntry(self, placeholder_text="Search a champion (Aatrox, Garen, etc.).", width=400)
-        self.entry.pack(pady=3)
+        self.title_app = customtkinter.CTkLabel(master=self, text="LoL Matchup Guide", font=("Arial", 20, "bold"))
+        self.title_app.pack(pady=8)
 
         self.scroll_frame = customtkinter.CTkScrollableFrame(master=self, width=480, height=320)
         self.scroll_frame.pack(pady=20)
@@ -73,9 +73,10 @@ class RivenNation(customtkinter.CTk):
                 column = 0
                 row += 1
         
-    def champion_select(self, champ_name): # New window
+    def champion_select(self, champ_name): 
         print(f"{champ_name}")
         if hasattr(self, "credit"): self.credit.pack_forget()
+        if hasattr(self, "title_app"): self.title_app.pack_forget()
 
         self.details_frame = customtkinter.CTkFrame(self, fg_color="transparent")
         self.details_frame.pack(fill="both", expand=True, padx=20, pady=20)
@@ -87,11 +88,11 @@ class RivenNation(customtkinter.CTk):
 
         self.btn_return = customtkinter.CTkButton(
             self.details_frame, 
-            text="Return", # Seta para indicar voltar
+            text="Return", 
             command=self.return_button, 
             fg_color="transparent", 
-            width=50, # Largura compacta
-            anchor="w" # Texto alinhado a esquerda
+            width=50, 
+            anchor="w" 
         )
         self.btn_return.grid(row=0, column=0, sticky="w", padx=(0, 10), pady=(0, 10))
 
@@ -129,17 +130,18 @@ class RivenNation(customtkinter.CTk):
         todo = data_matchups.get(champ_name, {}).get("todo", "No notes yet.")
         nottodo = data_matchups.get(champ_name, {}).get("nottodo", "No notes yet.")
         item = data_matchups.get(champ_name, {}).get("start-item", "")
-        item_icon = os.path.join(script_dir, "icons", item)
 
         # ------------------------------------------------------------------------------
 
-        self.entry.pack_forget()
         self.scroll_frame.pack_forget()
 
         champion_name = customtkinter.CTkLabel(self.left_content, text=champ_name, font=("Arial", 26))
         champion_name.pack(pady=(0, 15)) 
 
-        lbl_items_title = customtkinter.CTkLabel(self.left_content, text="Recommended Items", font=("Arial", 18, "bold"), anchor="w")
+        diff_title = customtkinter.CTkLabel(self.left_content, text=f"{diff} difficulty", font=("Arial", 18))
+        diff_title.pack(pady=(0, 15))
+
+        lbl_items_title = customtkinter.CTkLabel(self.left_content, text="Starting Items", font=("Arial", 18), anchor="w")
         lbl_items_title.pack(fill="x", pady=(10, 5))
 
         items_card = customtkinter.CTkFrame(self.left_content, fg_color="#333333")
