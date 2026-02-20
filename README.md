@@ -16,7 +16,7 @@ To edit or add your own notes:
 4. Save the file. The changes will be applied immediately the next time you open the app or consult the champion.
 
 **Recommended editing tools:**
-If you do not use a code editor (such as VS Code or Notepad++) and want to avoid syntax errors (like accidentally deleting a comma or bracket, which will prevent the file from being read), you can use online JSON validators and editors. Simply copy the content of your file, paste it into the website, make your edits, and paste it back into your file:
+If you do not use a code editor (such as VS Code or Notepad++) and want to avoid syntax errors (like accidentally deleting a comma or bracket, which will prevent the file from being read), you can use online JSON validators and editors. Simply copy the content of your file, paste it into the website, make your edits, and paste it back into your file, pay atention at the `start-items` because you need the name of the files for the image to change too.
 
 ## Trivia
 
